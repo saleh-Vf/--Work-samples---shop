@@ -24,7 +24,6 @@ body {
 
 .navbar {
     background-color: var(--lightBlue);
-    height: 60PX;
 }
 
 .navbar-center {
@@ -45,6 +44,10 @@ body {
 .navbar-title {
     color: var(--mainBlack);
     text-decoration: none;
+}
+
+.navbar-title>img {
+    height: 60px;
 }
 
 .cart-icon {
